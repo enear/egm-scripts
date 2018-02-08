@@ -1,0 +1,11 @@
+<!-- Run with: control.exe intl.cpl,,/f:"c:\locale.xml" -->
+<gs:GlobalizationServices xmlns:gs="urn:longhornGlobalizationUnattend">
+  <gs:UserList>
+    <gs:User UserID="Current" CopySettingsToDefaultUserAcct="true" CopySettingsToSystemAcct="true"/>
+  </gs:UserList>
+  <gs:InputPreferences>
+    <!--pt-PT-->
+    <gs:InputLanguageID Action="add" ID="0816:00000816" Default="true"/>
+    <gs:InputLanguageID Action="remove" ID="0809:00000809"/>
+  </gs:InputPreferences>
+</gs:GlobalizationServices>
